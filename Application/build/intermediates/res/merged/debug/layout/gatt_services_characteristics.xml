@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/power_lunch_background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="@string/app_name"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_large">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/thermocool_luchbox_view"
+            android:contentDescription="@string/lunchbox"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/lunchbox_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/thermocool_luchbox_overlay"
+            android:contentDescription="@string/overlay"
+            android:layout_gravity="center"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/cold_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="@string/_0"/>
+        <TextView
+            android:id="@+id/hot_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="@string/_0"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_huge"
+        android:layout_marginRight="@dimen/margin_huge">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_state"
+                    android:textSize="18sp"/>
+                <Space android:layout_width="5dp"
+                    android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/connection_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/disconnected"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_data"
+                    android:textSize="18sp"/>
+                <Space android:layout_width="5dp"
+                    android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/data_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inactive"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/acivate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/activate"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\70f3edd639edfcabc8ba384b8c80a048ac337d0d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_e3f42b7ff995a4c65eb82180a3601d10b9336f5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\1d11f3cb6e588934843a2d67a6e3d83c8bf2f0c9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_6ab31acbe6c98922aa1fbd5411a0b9c953b36cc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\010ff940459dd018c8b8e31a0de0ece5f0fee578\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_f7057b69232de5cdc25d538bc8359df7edafbd14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\8e08a2ecb3d951075fbe3bfeca8eb47c2dfdd37f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_ee960064a81260d79abf2fb22b86a3b33ffdebd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_ba81f127b135069e9ba02d1d7c6876f8b80febc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\0ea9dfaed3d7767988baf23ff9284ddc9c590053\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_8b667a1d5a5705fdc20c1c941dfd09f350127990.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\fe3487f830df2b988752f9ab12149c92738f5380\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_e11de8f2579a32047238a0f4363461a3b44a5df7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\4987d593c84f50270bd4cd9065221db13bbf0cf8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_696cf2f34001d1999fdddc497cc8d0398b822b6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\3c4270277435693188be6e6675f4de445db2c487\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_823ae3b7cfe6565381157676970ae1b3c2b167c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\0a1b83ac569922a9ed8a49991e0f9e5540f603bb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_e38d15944b4d11c15dc24227ef5e414ddfbf63aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\9517b6008c8e8de6f276220ecb4d267038a42783\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_7db641c729d69cd964602e5ea54d2acfc1fe5176.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Brian\.android\build-cache\6e7cef7b36fdb6e7e040fe05e55755657f177711\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Brian\Documents\Projects\Thermocontrol\android-BluetoothLeGatt\Application\build\intermediates\pre-dexed\debug\classes_72ea2d3ab0487fe974c26e260e77350dd49d7d4e.jar" />
+    </item>
+
+</items>
