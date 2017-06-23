@@ -1,71 +1,32 @@
+Power Lunch Mobile App
+====================
 
-Android BluetoothLeGatt Sample
-===================================
+Background
+-------------------
 
-This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
-to transmit arbitrary data between devices.
+A typical household consumes more electricity for heating and cooling purposes than any other single use and the refrigerator is often the most power hungry appliance of all. According to the second law of thermodynamics, for all of the heat removed from the interior of the fridge to keep it's contents cool, a greater amount is added outside where it's released and distributed throughout the room. It's not difficult to imagine a better use for this heat in a household that features such appliances as ovens, cloths dryers, and water heaters. The challenges come from transferring heat between locations and customers not yet ready for large, expensive, multipurpose appliances.
+Our team decided to address this challenge on a smaller scale placing a thermoelectric cooling plate inside of a lunch box or cooler to simultaneously heat and cool the contents. Further, since a user generally doesn't care about the temperature of the food until they are about to consume it, the timing of the heating and cooling can be controlled and adjusted to so that it is only active when needed.
 
-Introduction
-------------
-
-This sample shows a list of available Bluetooth LE devices and provides
-an interface to connect, display data and display GATT services and
-characteristics supported by the devices.
-
-It creates a [Service][1] for managing connection and data communication with a GATT server
-hosted on a given Bluetooth LE device.
-
-The Activities communicate with the Service, which in turn interacts with the [Bluetooth LE API][2].
-
-[1]:http://developer.android.com/reference/android/app/Service.html
-[2]:https://developer.android.com/reference/android/bluetooth/BluetoothGatt.html
-
-Pre-requisites
---------------
-
-- Android SDK 25
-- Android Build Tools v25.0.3
-- Android Support Repository
-
-Screenshots
+Description
 -------------
 
-<img src="screenshots/1-main.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
+The Power Lunch lunchbox is a network connected insulated food container, such as a lunchbox or cooler, with the interior divided into two sections by a thermoelectric cooling module such that when powered, one side of the container is heated while the other is cooled. The container connects to a mobile app through bluetooth allowing the user to manage the container's power consumption and timing of the hearter/cooler so that it's contents reach the ideal temperatures immediately before consumption.
 
-Getting Started
----------------
+How it works
+----------------
 
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+A control board connects to a relay directing current to an array of theromoelectric coolers. The coolers, with heat sinks attached on one side to prevent the hot side from becoming too hot, are sandwiched between conductive plates that make up the hot and cold surfaces of the lunchbox. The control board features a bluetooth module making the relays, and therefore the temperature of the plates, controllable from a mobile device application. A set of temperature sensors connected to the control board return the temperature of each plate back to the mobile application.
+The entire module is them placed inside an insulated cooler or lunchbox such that it forms two separate sealed compartments. The module com be powered by a rechargeable battery and if needed, feature a fan on each side for circulating air within each compartment.
 
-Support
--------
+How we built it
+--------------------
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
+The thermoelectric heating and cooling module is assembled using by first placing a conductive copper sheet into a 3D printed holder. Next, two thermoelectric plates coated with thermal paste and with leads connected in series are pressed flat against the plate. The exposed surfaces of the plates are also coated with thermal paste and and heat sinks are the pressed flat against them. Finally, a second copper sheet is pressed against the heat sinks and held in place by the printed holder.
+The control circuit consists of an Intel powered Arduino 101 control board with a base shield connected to two temperature sensors and a relay. The output terminals on the relay are connected between the thermoelectric module and it's power source allowing the control board to activate or deactivate the module. The control circuit components are housed in a 3D printed container placed next to the thermoelectric module and the temperature sensors are attached to each of the copper sheets.
+The Arduino 101 board is programmed to run a bluetooth low energy service, transmit two temperature characteristics, and listen for a digital output characteristic. The service and characteristic IDs are used in the Power Lunch mobile app to identify and communicate with the lunchbox.
+The Power Lunch Android app uses the Android Bluetooth Low Energy API to query all nearby bluetooth devices by name and connect if the name matches that of the lunchbox. Once a connection is established, the app queries available services and the characteristics by ID to find those the match the temperature readings of the two sensors. The temperatures are read and lunchbox preview is updated so the color intensity of each compartment reflects the measured temperature. The lunchbox can be activated or deactivated by querying and then writing to the control boards activation service.
 
-If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-BluetoothLeGatt
+Advantages
+-------------------------
 
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
-
-License
--------
-
-Copyright 2017 The Android Open Source Project, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+The termoelectric coolers provides a quick, compact, and inexpensive way for cooling and heating, however it they are not very energy efficient. A control system minimizes the energy use to create a product that is practical and suited for everyday use. While the technology is easiest to implement in a lunchbox, it could also have applications within containers for food delivery or within larger home and kitchen appliances. 
