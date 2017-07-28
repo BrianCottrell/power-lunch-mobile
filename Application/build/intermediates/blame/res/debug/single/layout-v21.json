@@ -4,7 +4,19 @@
         "source": "C:\\Users\\Brian\\.android\\build-cache\\010ff940459dd018c8b8e31a0de0ece5f0fee578\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Brian\\.android\\build-cache\\010ff940459dd018c8b8e31a0de0ece5f0fee578\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Brian\\.android\\build-cache\\010ff940459dd018c8b8e31a0de0ece5f0fee578\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Brian\\.android\\build-cache\\010ff940459dd018c8b8e31a0de0ece5f0fee578\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Brian\\.android\\build-cache\\010ff940459dd018c8b8e31a0de0ece5f0fee578\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
@@ -13,6 +25,10 @@
     },
     {
         "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Brian\\.android\\build-cache\\010ff940459dd018c8b8e31a0de0ece5f0fee578\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "C:\\Users\\Brian\\.android\\build-cache\\010ff940459dd018c8b8e31a0de0ece5f0fee578\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]

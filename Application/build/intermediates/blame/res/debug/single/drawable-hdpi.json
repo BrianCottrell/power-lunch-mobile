@@ -1,7 +1,19 @@
 [
     {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\thermocool_luchbox_overlay.png",
+        "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\src\\main\\res\\drawable-hdpi\\thermocool_luchbox_overlay.png"
+    },
+    {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\thermocool_luchbox_view.png",
+        "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\src\\main\\res\\drawable-hdpi\\thermocool_luchbox_view.png"
+    },
+    {
         "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tile.9.png",
         "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\power_lunch_background.png",
+        "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\src\\main\\res\\drawable-hdpi\\power_lunch_background.png"
     },
     {
         "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\power_lunch_logo.png",
@@ -16,7 +28,15 @@
         "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\src\\main\\res\\drawable-hdpi\\power_lunch_background.png"
     },
     {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\power_lunch_logo.png",
+        "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\src\\main\\res\\drawable-hdpi\\power_lunch_logo.png"
+    },
+    {
         "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\thermocool_luchbox_overlay.png",
         "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\src\\main\\res\\drawable-hdpi\\thermocool_luchbox_overlay.png"
+    },
+    {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tile.9.png",
+        "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
     }
 ]

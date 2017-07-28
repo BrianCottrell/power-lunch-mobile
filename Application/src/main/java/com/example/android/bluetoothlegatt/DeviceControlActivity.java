@@ -145,7 +145,11 @@ public class DeviceControlActivity extends Activity {
                 if (mBluetoothLeService != null) {
                     if (mOnOffCharacteristic != null) {
                         byte[] value = new byte[1];
-                        value[0] = (byte) (21 & 0xFF);
+                        if (mActive) {
+                            value[0] = (byte) (0);
+                        } else {
+                            value[0] = (byte) (21 & 0xFF);
+                        }
                         mOnOffCharacteristic.setValue(value);
                         if (mBluetoothLeService.writeCharacteristic()) {
                             if (mActive) {

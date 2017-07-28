@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\android\\power-lunch-app\\Application\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Brian\\Documents\\Projects\\PowerLunch\\power-lunch-app\\Application\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
