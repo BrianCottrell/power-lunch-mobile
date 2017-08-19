@@ -64,7 +64,7 @@ public class DeviceControlActivity extends Activity {
     private boolean mConnected = false;
     private BluetoothGattCharacteristic mNotifyCharacteristic;
     private BluetoothGattCharacteristic mOnOffCharacteristic;
-    private Boolean mActive = false;
+    private boolean mActive = false;
 
     private int delay = 1000;
     private int lastRead;
@@ -146,9 +146,9 @@ public class DeviceControlActivity extends Activity {
                     if (mOnOffCharacteristic != null) {
                         byte[] value = new byte[1];
                         if (mActive) {
-                            value[0] = (byte) (0);
+                            value[0] = (byte) (0x00);
                         } else {
-                            value[0] = (byte) (21 & 0xFF);
+                            value[0] = (byte) (0x11);
                         }
                         mOnOffCharacteristic.setValue(value);
                         if (mBluetoothLeService.writeCharacteristic()) {
